@@ -28,17 +28,19 @@
     <h1 class="md:text-4xl text-3xl text-GrayishBlue font-bold mb-11">Our Pricing</h1>
     <div class="flex flex-row justify-center items-center gap-6">
       <span class="md:text-lg text-base text-LightGrayishBlue font-semibold">Annually</span>
-      <div class="py-2.5 px-6 bg-LinearGradient rounded-full">
-        <div class="p-3 rounded-full bg-white"></div>
+      <div class="flex bg-LinearGradient rounded-full w-[70px] h-[38px] p-1 relative hover:opacity-70 transition-all duration-300 ease-in-out">
+        <input type="checkbox" id="check" class="sr-only peer" />
+        <label for="check" class="absolute inset-0 cursor-pointer"></label>
+        <label for="check" class="w-[30px] h-[30px] bg-white rounded-full shadow-md cursor-pointer transition-transform duration-300 transform translate-x-[30px] peer-checked:translate-x-0"></label>
       </div>
       <span class="md:text-lg text-base text-LightGrayishBlue font-semibold">Monthly</span>
     </div>
   </section>
 
   <main class="relative flex md:flex-row flex-col justify-center items-center mt-[70px] mb-[50px] z-10">
-    <div class="bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
+    <div class="w-[340px] bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
       <p class="text-xl">Basic</p>
-      <h2 class="lg:text-7xl text-6xl text-DarkGrayishBlue font-bold my-10">&dollar;19.99</h2> <!--&dollar;199.99-->
+      <h2 class="lg:text-7xl text-6xl text-DarkGrayishBlue font-bold my-10 price" data-monthly="19.99" data-annually="199.99">&dollar;19.99</h2>
       <hr class="border-LightGrayishBlue">
       <p class="my-3">500 GB Storage</p>
       <hr class="border-LightGrayishBlue">
@@ -46,11 +48,11 @@
       <hr class="border-LightGrayishBlue">
       <p class="my-3">Send up to 3 GB</p>
       <hr class="border-LightGrayishBlue">
-      <button class="bg-LinearGradient text-white uppercase w-[100%] py-2.5 rounded-lg mt-8">Learn More</button>
+      <button class="bg-[rgb(119,122,225)] hover:bg-transparent text-white hover:text-[rgb(119,122,225)] border-[rgb(119,122,225)] hover:border-GrayishBlue border-[1px] uppercase w-[100%] py-2.5 rounded-lg mt-8 transition-all duration-300 ease-in-out">Learn More</button>
     </div>
-    <div class="bg-LinearGradient px-10 py-12 rounded-xl text-white text-center font-bold md:mb-0 mb-7">
+    <div class="w-[348px] bg-LinearGradient px-10 py-12 rounded-xl text-white text-center font-bold md:mb-0 mb-7">
       <p class="text-xl">Professional</p>
-      <h2 class="lg:text-7xl text-6xl font-bold my-10">&dollar;24.99</h2> <!-- &dollar;249.99-->
+      <h2 class="lg:text-7xl text-6xl font-bold my-10 price" data-monthly="24.99" data-annually="249.99">&dollar;24.99</h2>
       <hr>
       <p class="my-3">1 TB Storage</p>
       <hr>
@@ -58,11 +60,11 @@
       <hr>
       <p class="my-3">Send up to 10 GB</p>
       <hr>
-      <button class="bg-white text-[rgb(119,122,225)] uppercase w-[100%] py-2.5 rounded-lg mt-8">Learn More</button>
+      <button class="bg-white hover:bg-transparent text-[rgb(119,122,225)] hover:text-white border-transparent hover:border-white border-[1px] uppercase w-[100%] py-2.5 rounded-lg mt-8 transition-all duration-300 ease-in-out">Learn More</button>
     </div>
-    <div class="bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
+    <div class="w-[340px] bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
       <p class="text-xl">Master</p>
-      <h2 class="lg:text-7xl text-6xl text-DarkGrayishBlue font-bold my-10">&dollar;39.99</h2> <!-- &dollar;399.99-->
+      <h2 class="lg:text-7xl text-6xl text-DarkGrayishBlue font-bold my-10 price" data-monthly="39.99" data-annually="399.99">&dollar;39.99</h2>
       <hr class="border-LightGrayishBlue">
       <p class="my-3">2 TB Storage</p>
       <hr class="border-LightGrayishBlue">
@@ -70,7 +72,7 @@
       <hr class="border-LightGrayishBlue">
       <p class="my-3">Send up to 20 GB</p>
       <hr class="border-LightGrayishBlue">
-      <button class="bg-LinearGradient text-white uppercase w-[100%] py-2.5 rounded-lg mt-8">Learn More</button>
+      <button class="bg-[rgb(119,122,225)] hover:bg-transparent text-white hover:text-[rgb(119,122,225)] border-[rgb(119,122,225)] border-[rgb(119,122,225)] hover:border-GrayishBlue border-[1px] uppercase w-[100%] py-2.5 rounded-lg mt-8 transition-all duration-300 ease-in-out">Learn More</button>
     </div>
   </main>
 
