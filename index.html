@@ -19,10 +19,10 @@
 </head>
 
 <body class="bg-VeryLightGrayishBlue relative min-h-screen">
-  <div class="absolute inset-0 pointer-events-none z-0">
+  <aside class="absolute inset-0 pointer-events-none z-0">
     <img src="assets/images/bg-top.svg" alt="Background Top Illustration" class="absolute top-0 right-0 max-w-[50%] lg:max-w-[30%]">
     <img src="assets/images/bg-bottom.svg" alt="Background Bottom Illustration" class="absolute bottom-0 left-0 max-w-[50%] lg:max-w-[30%]">
-  </div>
+  </aside>
 
   <section class="relative flex flex-col justify-center items-center pt-[70px] z-10">
     <h1 class="md:text-4xl text-3xl text-GrayishBlue font-bold mb-11">Our Pricing</h1>
@@ -30,7 +30,7 @@
       <span class="md:text-lg text-base text-LightGrayishBlue font-semibold">Annually</span>
       <div class="flex bg-LinearGradient rounded-full w-[70px] h-[38px] p-1 relative hover:opacity-70 transition-all duration-300 ease-in-out">
         <input type="checkbox" id="check" class="sr-only peer" />
-        <label for="check" class="absolute inset-0 cursor-pointer"></label>
+        <label for="check" class="absolute inset-0 cursor-pointer" aria-label="Toggle pricing"></label>
         <label for="check" class="w-[30px] h-[30px] bg-white rounded-full shadow-md cursor-pointer transition-transform duration-300 transform translate-x-[30px] peer-checked:translate-x-0"></label>
       </div>
       <span class="md:text-lg text-base text-LightGrayishBlue font-semibold">Monthly</span>
@@ -38,7 +38,7 @@
   </section>
 
   <main class="relative flex md:flex-row flex-col justify-center items-center mt-[70px] mb-[50px] z-10">
-    <div class="w-[340px] bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
+    <section class="w-[340px] bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
       <p class="text-xl">Basic</p>
       <h2 class="lg:text-7xl text-6xl text-DarkGrayishBlue font-bold my-10 price" data-monthly="19.99" data-annually="199.99">&dollar;19.99</h2>
       <hr class="border-LightGrayishBlue">
@@ -49,8 +49,8 @@
       <p class="my-3">Send up to 3 GB</p>
       <hr class="border-LightGrayishBlue">
       <button class="bg-[rgb(119,122,225)] hover:bg-transparent text-white hover:text-[rgb(119,122,225)] border-[rgb(119,122,225)] hover:border-GrayishBlue border-[1px] uppercase w-[100%] py-2.5 rounded-lg mt-8 transition-all duration-300 ease-in-out">Learn More</button>
-    </div>
-    <div class="w-[348px] bg-LinearGradient px-10 py-12 rounded-xl text-white text-center font-bold md:mb-0 mb-7">
+    </section>
+    <section class="w-[348px] bg-LinearGradient px-10 py-12 rounded-xl text-white text-center font-bold md:mb-0 mb-7">
       <p class="text-xl">Professional</p>
       <h2 class="lg:text-7xl text-6xl font-bold my-10 price" data-monthly="24.99" data-annually="249.99">&dollar;24.99</h2>
       <hr>
@@ -61,8 +61,8 @@
       <p class="my-3">Send up to 10 GB</p>
       <hr>
       <button class="bg-white hover:bg-transparent text-[rgb(119,122,225)] hover:text-white border-transparent hover:border-white border-[1px] uppercase w-[100%] py-2.5 rounded-lg mt-8 transition-all duration-300 ease-in-out">Learn More</button>
-    </div>
-    <div class="w-[340px] bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
+    </section>
+    <section class="w-[340px] bg-white p-9 rounded-xl text-center font-bold text-GrayishBlue md:mb-0 mb-7">
       <p class="text-xl">Master</p>
       <h2 class="lg:text-7xl text-6xl text-DarkGrayishBlue font-bold my-10 price" data-monthly="39.99" data-annually="399.99">&dollar;39.99</h2>
       <hr class="border-LightGrayishBlue">
@@ -73,7 +73,7 @@
       <p class="my-3">Send up to 20 GB</p>
       <hr class="border-LightGrayishBlue">
       <button class="bg-[rgb(119,122,225)] hover:bg-transparent text-white hover:text-[rgb(119,122,225)] border-[rgb(119,122,225)] border-[rgb(119,122,225)] hover:border-GrayishBlue border-[1px] uppercase w-[100%] py-2.5 rounded-lg mt-8 transition-all duration-300 ease-in-out">Learn More</button>
-    </div>
+    </section>
   </main>
 
   <script src="assets/js/script.js"></script>
