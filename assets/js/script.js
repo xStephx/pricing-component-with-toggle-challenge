@@ -1,6 +1,8 @@
+// DOM elements
 const toggle = document.querySelector("#check")
 const prices = document.querySelectorAll(".price")
 
+// Event listener on toggle button
 toggle.addEventListener("change", () => {
     const isMonthly = toggle.checked
 
