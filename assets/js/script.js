@@ -8,6 +8,6 @@ toggle.addEventListener("change", () => {
 
     prices.forEach((priceElement) => {
         const newPrice = isMonthly ? priceElement.dataset.annually : priceElement.dataset.monthly
-        priceElement.innerHTML = `<span class="text-5xl mr-1">&dollar;</span>${newPrice}`
+        priceElement.innerHTML = `<span class="lg:text-5xl md:text-5xl text-4xl mr-1">&dollar;</span>${newPrice}`
     })
 })
